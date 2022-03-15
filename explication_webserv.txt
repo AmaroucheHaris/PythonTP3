@@ -1,0 +1,4 @@
+on commence par importer les modules Optional et fastAPI depuis typing et fastap
+on créer une instance de FastAPI que l'on appelle 'app'
+on défini le comportement par defaut lorsque l'on effectue une requete epuis la racine du serveur web à l'aide du décorateur @app.get("/")
+et de la fonction asynchrone read_root
