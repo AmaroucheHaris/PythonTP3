@@ -2,3 +2,12 @@ on commence par importer les modules Optional et fastAPI depuis typing et fastap
 on créer une instance de FastAPI que l'on appelle 'app'
 on défini le comportement par defaut lorsque l'on effectue une requete epuis la racine du serveur web à l'aide du décorateur @app.get("/")
 et de la fonction asynchrone read_root
+
+
+On créer ensuite le décorateur @app.get("/ip/{ip}") ainsi que la fonction asynchrone get_ip
+on vérifie si la clé fournie est nulle. Si c'est le cas, le message d'erreur Error": "Please provide a valid API key" apparait.
+sinon, on essaie créer une instance de Shodan basé sur notre clé d'API puis on appelle la fonction host depuis notre instance d'API afin de retourner le l'ip, l'oragnisation et la pays.
+Si une exception est propagée, on affiche le message d'erreur "Error:" + le message d'erreur propre à l'exception.
+
+en effectuant la requete depuis un navigateur, on obtien le resultat suivant:
+{"IP":"185.235.207.212","Organization":"Groupe ESIEA Association declaree","Country":"France"}
