@@ -8,3 +8,5 @@ La fonction on_click vient lire le contenue du textfield "text" puis on fonction
 La fonction query est déjà expliqué dans un autre fichier.
 
 dans son block main, on créer une instance de QApplication intitulé app ainsi qu'une fenetre. Ensuite on execute l'application.
+
+on ajoute des champs correspondant au la clé de l'api ainsi que l'adresse ip. On modifie ensuite l'url de la requete.

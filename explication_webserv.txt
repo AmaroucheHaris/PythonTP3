@@ -11,3 +11,6 @@ Si une exception est propagée, on affiche le message d'erreur "Error:" + le mes
 
 en effectuant la requete depuis un navigateur, on obtien le resultat suivant:
 {"IP":"185.235.207.212","Organization":"Groupe ESIEA Association declaree","Country":"France"}
+
+Après avoir modifier les champs obtenus depuis res, on obtient également la latitude et longitude. Le nouveau resultat est :
+{"IP":"185.235.207.212","Organization":"Groupe ESIEA Association declaree","Country":"France", "longitude": 2.3488, "latitude": 48.85341}
