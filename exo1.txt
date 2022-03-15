@@ -8,4 +8,4 @@ Une API REST une une interface de programmation d'applications basée sur une ar
 
 Qu'est ce qu'une FastAPI ?
 
-Une FastAPI est un framework web Python dédié au developpement d'API. FastAPI met à disposition des performances très élévées (à la hauteur de Node.js)
+Une FastAPI est un framework web Python dédié au developpement d'API. FastAPI met à disposition des performances très élévées (à la hauteur de Node.js) à l'aide de technologies modernes.
