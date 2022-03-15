@@ -10,3 +10,4 @@ La fonction query est déjà expliqué dans un autre fichier.
 dans son block main, on créer une instance de QApplication intitulé app ainsi qu'une fenetre. Ensuite on execute l'application.
 
 on ajoute des champs correspondant au la clé de l'api ainsi que l'adresse ip. On modifie ensuite l'url de la requete.
+on extrait la latitude et longitude puis on créer une seconde requete pour la géolocalisation.

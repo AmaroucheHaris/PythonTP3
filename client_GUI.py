@@ -54,6 +54,13 @@ class MainWindow(QWidget):
             if res:
                 self.label2.setText(str(res))
                 self.label2.adjustSize()
+                print(res)
+                lat = res["latitude"]
+                long = res["longitude"]
+                urlMap = "https://www.openstreetmap.org/?mlat="+str(lat)+"&mlon="+str(long)+"#map=12"
+                QDesktopServices.openUrl(QUrl(urlMap))
+                requests.get(urlMap)
+
                 self.show()
 
     def __query(self, hostname, API_key, ip):
