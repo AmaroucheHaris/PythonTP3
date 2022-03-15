@@ -1,0 +1,10 @@
+comme dans les autres classes, on effectue nos imports.
+Ensuite on créer une classe MainWindow qui hérite de QWidget
+on définie nos différents éléments sur notre interface graphque (label, bouton...)
+on associe la fonction "on_click" à notre bouton lorsqu'il est clické ou préssé.
+On affiche enfin notre fenetre.
+
+La fonction on_click vient lire le contenue du textfield "text" puis on fonction de la valeur lue affiche soit une erreur, soit effectue une requete et affiche le résultat sur l'interface graphique.
+La fonction query est déjà expliqué dans un autre fichier.
+
+dans son block main, on créer une instance de QApplication intitulé app ainsi qu'une fenetre. Ensuite on execute l'application.
