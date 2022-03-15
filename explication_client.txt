@@ -1,0 +1,6 @@
+on importe le module request puis QMessageBox depuis PyQt5.QtWidgets.
+on definit une classe Main ainsi que la fonction query prenant en paramètre un hostname
+on défini une variable url puis on effectue une requête get sur notre url que l'on récupère dans une variable 'r'
+On vérifie le status de la requête et en fonction du resultat on affiche soit le message "Error", "IP not found", soit le resultat de la requete mais au format json
+Ensuite, dans un bloc main, on créer une instance de notre classe Main, on defini un hostname comme étant le localhost
+Suite à cela, on effectue une requete vers notre serveur web (127.0.0.1:8000) et on l'affiche si une réponse est retourné par la requete.
